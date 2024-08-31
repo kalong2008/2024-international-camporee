@@ -1,10 +1,10 @@
 {
   "pages": {
-    "/page": [
+    "/(photo)/camporee/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/page.css",
-      "static/chunks/app/page.js"
+      "static/css/app/(photo)/camporee/page.css",
+      "static/chunks/app/(photo)/camporee/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -12,17 +12,11 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/(photo)/camporee/page": [
+    "/(photo)/pre-trip/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/(photo)/camporee/page.css",
-      "static/chunks/app/(photo)/camporee/page.js"
-    ],
-    "/(photo)/road-trip/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(photo)/road-trip/page.css",
-      "static/chunks/app/(photo)/road-trip/page.js"
+      "static/css/app/(photo)/pre-trip/page.css",
+      "static/chunks/app/(photo)/pre-trip/page.js"
     ]
   }
 }

@@ -29,11 +29,11 @@
     "react": "^18",
     "react-calendar": "^5.0.0",
     "react-dom": "^18",
-    "react-photo-album": "^2.4.1",
+    "react-photo-album": "^3.0.2",
     "react-swipeable": "^7.0.1",
     "sharp": "^0.33.4",
     "styled-components": "^6.1.11",
-    "yet-another-react-lightbox": "^3.21.1"
+    "yet-another-react-lightbox": "^3.21.4"
   },
   "devDependencies": {
     "@types/node": "^20",

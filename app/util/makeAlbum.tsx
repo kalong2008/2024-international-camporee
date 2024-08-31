@@ -21,7 +21,7 @@ export default function AlbumComponent({photo, title}:{photo: any, title: string
       <PhotoAlbum
         photos={makePhotoObject({photo})}
         layout="rows"
-        renderPhoto={NextJsImage}
+        
         defaultContainerWidth={1200}
         sizes={{ size: "calc(100vw - 240px)" }}
         onClick={({ index }) => setIndex(index)}
