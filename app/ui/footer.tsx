@@ -17,7 +17,7 @@ export default function FooterComponent() {
                 </span>
               </a>
             </div>
-            <div className="flex items-center space-x-3">
+            <div className="flex items-end space-x-3">
             <a href="https://www.facebook.com/hkmcpfic/"><FaFacebook size={20} /></a>
             <a href="https://www.instagram.com/hkmcpfic/"><FaInstagram size={20} /></a>
             <a href="https://www.youtube.com/@hkmcyouth2774"><FaYoutube size={20} /></a>
