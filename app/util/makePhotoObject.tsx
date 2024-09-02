@@ -1,4 +1,4 @@
-import type { Photo } from "react-photo-album";
+//import type { Photo } from "react-photo-album";
 
 const breakpoints = [1080, 640, 384, 256, 128, 96, 64, 48];
 
@@ -15,7 +15,7 @@ export function makePhotoObject({photo}: {photo: any}) {
             width: breakpoint,
             height: Math.round((height / width) * breakpoint),
           })),
-        }) as Photo,
+        })// as Photo,
     );
 
     

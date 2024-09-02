@@ -1,7 +1,4 @@
 {
   "/(photo)/camporee/page": "app/(photo)/camporee/page.js",
-  "/page": "app/page.js",
-  "/(photo)/pre-trip/page": "app/(photo)/pre-trip/page.js",
-  "/(photo)/san-francisco/page": "app/(photo)/san-francisco/page.js",
-  "/(photo)/road-trip/page": "app/(photo)/road-trip/page.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }
