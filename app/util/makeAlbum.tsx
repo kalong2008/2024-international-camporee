@@ -19,7 +19,7 @@ export default function AlbumComponent({photo, title}:{photo: any, title: string
   const [index, setIndex] = useState(-1);
   return (
     <div className="w-4/5 m-auto pb-14">
-      <p className="text-3xl font-bold leading-6 text-gray-900 text-center py-14">{title}</p>
+      <p className="text-3xl font-bold leading-6 text-gray-900 text-center pt-6 pb-8">{title}</p>
       <RowsPhotoAlbum
         photos={makePhotoObject({photo})}
         layout="rows"

@@ -1,4 +1,4 @@
-import { FaInstagram, FaYoutube } from "react-icons/fa";
+import { FaInstagram, FaYoutube, FaFacebook } from "react-icons/fa";
 
 export default function FooterComponent() {
   return (
@@ -18,6 +18,7 @@ export default function FooterComponent() {
               </a>
             </div>
             <div className="flex items-center space-x-3">
+            <a href="https://www.facebook.com/hkmcpfic/"><FaFacebook size={20} /></a>
             <a href="https://www.instagram.com/hkmcpfic/"><FaInstagram size={20} /></a>
             <a href="https://www.youtube.com/@hkmcyouth2774"><FaYoutube size={20} /></a>
             </div>

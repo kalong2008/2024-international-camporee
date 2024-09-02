@@ -35,7 +35,7 @@ export default function SideNav() {
       {/* start of the top header */}
       <nav
         aria-label="Global"
-        className="mx-auto lg:w-4/5 flex items-center lg:justify-center justify-between p-4"
+        className="mx-auto lg:w-4/5 flex items-center lg:justify-center justify-between px-4 pt-4"
       >
         <div className="flex lg:flex-none">
           <Link href="/#" className="-m-1.5 p-1.5">
