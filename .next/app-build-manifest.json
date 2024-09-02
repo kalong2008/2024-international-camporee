@@ -12,11 +12,28 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
+    ],
     "/(photo)/pre-trip/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/(photo)/pre-trip/page.css",
       "static/chunks/app/(photo)/pre-trip/page.js"
+    ],
+    "/(photo)/san-francisco/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(photo)/san-francisco/page.css",
+      "static/chunks/app/(photo)/san-francisco/page.js"
+    ],
+    "/(photo)/road-trip/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(photo)/road-trip/page.css",
+      "static/chunks/app/(photo)/road-trip/page.js"
     ]
   }
 }
