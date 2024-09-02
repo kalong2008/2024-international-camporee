@@ -21,7 +21,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={notoHK.className}>
-        <div><SideNav />{children}</div>
+        <div><SideNav />
+        {children}
+        <SpeedInsights/>
+        <Analytics/>
+        </div>
         <FooterComponent />
       </body>
     </html>

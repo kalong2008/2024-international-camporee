@@ -1,6 +1,6 @@
 export const preCampLink = [
     {
-      name: "營會前訓練",
+      name: "營前訓練",
       href: "/pre-trip",
     },
   ];

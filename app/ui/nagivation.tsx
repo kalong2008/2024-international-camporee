@@ -23,6 +23,7 @@ import {
   roadTripLink,
   sanLink
 } from "@/public/hyperlink-data";
+import { FaInstagram, FaYoutube, FaFacebook } from "react-icons/fa";
 
 
 export default function SideNav() {
@@ -186,8 +187,14 @@ export default function SideNav() {
               </div>
             </div>
           </div>
+          <div className="flex items-center space-x-3 py-6">
+            <a href="https://www.facebook.com/hkmcpfic/"><FaFacebook size={20} /></a>
+            <a href="https://www.instagram.com/hkmcpfic/"><FaInstagram size={20} /></a>
+            <a href="https://www.youtube.com/@hkmcyouth2774"><FaYoutube size={20} /></a>
+            </div>
         </DialogPanel>
       </Dialog>
+      
       {/* end of the burger menu */}
     </header>
   );

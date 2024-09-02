@@ -3,6 +3,6 @@ import photo from '@/public/photo/camporee/camporee.json'
 
 export default function Page() {
 
-  return <AlbumComponent photo={photo} title={"旅程前訓練"} />;
+  return <AlbumComponent photo={photo} title={"金波利營會"} />;
   
 }
