@@ -3,6 +3,7 @@
 import { useState } from "react";
 import RowsPhotoAlbum from "react-photo-album";
 import "react-photo-album/rows.css";
+import "yet-another-react-lightbox/styles.css";
 
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
@@ -35,6 +36,7 @@ export default function AlbumComponent({photo, title}:{photo: any, title: string
         // enable optional lightbox plugins
         plugins={[Download, Fullscreen, Slideshow, Counter]}
         counter={{ container: { style: { top: "unset", bottom: 0 } } }}
+        controller={{closeOnPullUp: true, closeOnPullDown: true, closeOnBackdropClick: true}}
       />
     </div>
   );

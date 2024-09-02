@@ -18,7 +18,7 @@ export function NextJsImage(
         src={photo}
         alt={alt}
         title={title}
-        sizes={sizes}
+        sizes="(min-width: 808px) 50vw, 100vw"
         placeholder={"blurDataURL" in photo ? "blur" : undefined}
         className="hoverImage"
         quality={100}
