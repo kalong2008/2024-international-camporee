@@ -21,6 +21,7 @@ export function NextJsImage(
         sizes={sizes}
         placeholder={"blurDataURL" in photo ? "blur" : undefined}
         className="hoverImage"
+        quality={100}
       />
     </div>
   );
