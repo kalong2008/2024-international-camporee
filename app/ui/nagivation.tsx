@@ -40,7 +40,7 @@ export default function SideNav() {
       >
         <div className="flex lg:flex-none">
           <Link href="/#" className="-m-1.5 p-1.5">
-            <span className="sr-only">Tuen Mun Pathfinder</span>
+            <span className="sr-only">2024 Hong Kong International Pathfinder Camporee - Hong Kong-Macao Conference of Seventh-day Adventists</span>
             <img
               alt=""
               src="/logo.png"
