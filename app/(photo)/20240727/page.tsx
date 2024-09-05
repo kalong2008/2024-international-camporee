@@ -1,5 +1,5 @@
 import AlbumComponent from "@/app/util/makeAlbum"; 
-import photo from '@/public/photo/camporee/camporee.json'
+import photo from '@/public/photo/20240727/20240727.json'
 
 export default function Page() {
 

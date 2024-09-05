@@ -115,10 +115,10 @@ export default function SideNav() {
       >
         <div className="flex lg:flex-none">
           <Link href="/#" className="-m-1.5 p-1.5">
-            <span className="sr-only">Tuen Mun Pathfinder</span>
+            <span className="sr-only">2024 Hong Kong International Pathfinder Camporee - Hong Kong-Macao Conference of Seventh-day Adventists</span>
             <img
               alt=""
-              src="/pathfinder-adventurer.png"
+              src="/logo.png"
               className="h-8 lg:h-8 w-auto"
             />
           </Link>
@@ -348,10 +348,10 @@ export default function SideNav() {
         <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-neutral-100 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <Link href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
+              <span className="sr-only">2024 Hong Kong International Pathfinder Camporee - Hong Kong-Macao Conference of Seventh-day Adventists</span>
               <img
                 alt=""
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                src="app/ui/nagivation.tsx"
                 className="h-8 w-auto"
               />
             </Link>
