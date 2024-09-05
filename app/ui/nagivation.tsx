@@ -351,7 +351,7 @@ export default function SideNav() {
               <span className="sr-only">2024 Hong Kong International Pathfinder Camporee - Hong Kong-Macao Conference of Seventh-day Adventists</span>
               <img
                 alt=""
-                src="app/ui/nagivation.tsx"
+                src="/logo.png"
                 className="h-8 w-auto"
               />
             </Link>
