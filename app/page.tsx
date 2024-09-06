@@ -1,5 +1,17 @@
+import Youtube from "./util/makeYoutube";
+
 export default function Page() {
   return (
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/hcQc2IS5d4k?si=lbQuj7KvuC9LROgE" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-  )
+    <div className="w-4/5 m-auto pb-14">
+      <p className="text-xl font-bold leading-6 text-gray-900 text-center pt-6 pb-8">
+        花式步操隊 成長回顧
+      </p>
+      <Youtube youtubeSource={"https://www.youtube.com/embed/hcQc2IS5d4k?si=lbQuj7KvuC9LROgE"} youtubeTitle={"drill team hong kong pathfinder 2024"} />
+      <p className="text-xl font-bold leading-6 text-gray-900 text-center pt-6 pb-8">
+      相信祢應許 主題詩中文版
+      </p>
+      <Youtube youtubeSource={"https://www.youtube.com/embed/sFOc4lReAfs?si=CMGhe4g5d69upLJV"} youtubeTitle={"drill team hong kong pathfinder 2024"} />
+    
+    </div>
+  );
 }

@@ -1,6 +1,5 @@
 {
   "/page": "app/page.js",
-  "/(photo)/20240317/page": "app/(photo)/20240317/page.js",
-  "/(photo)/20240730/page": "app/(photo)/20240730/page.js",
-  "/(photo)/20240805/page": "app/(photo)/20240805/page.js"
+  "/(photo)/20240831/page": "app/(photo)/20240831/page.js",
+  "/(photo)/20240809/page": "app/(photo)/20240809/page.js"
 }
