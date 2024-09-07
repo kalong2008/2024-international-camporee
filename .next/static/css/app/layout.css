@@ -1406,9 +1406,6 @@ input[type="range"]::-ms-fill-lower {
 .w-screen {
   width: 100vw;
 }
-.w-3\/5 {
-  width: 60%;
-}
 .min-w-11 {
   min-width: 2.75rem;
 }
@@ -5440,12 +5437,12 @@ abbr[title] {
     height: 2rem;
   }
 
-  .lg\:w-4\/5 {
-    width: 80%;
-  }
-
   .lg\:w-3\/5 {
     width: 60%;
+  }
+
+  .lg\:w-4\/5 {
+    width: 80%;
   }
 
   .lg\:flex-none {
