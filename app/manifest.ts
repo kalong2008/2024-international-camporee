@@ -2,8 +2,8 @@ import type { MetadataRoute } from 'next'
  
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: '2024年國際金波利',
-    short_name: '2024年國際金波利',
+    name: '國際金波利',
+    short_name: '國際金波利',
     description: 'hong kong international camporee 2024 gallery',
     start_url: 'https://hkmcpfic.vercel.app',
     scope: "https://hkmcpfic.vercel.app",
