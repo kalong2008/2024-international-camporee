@@ -1,9 +1,10 @@
 {
   "pages": {
-    "/page": [
+    "/(photo)/20240730/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+      "static/css/app/(photo)/20240730/page.css",
+      "static/chunks/app/(photo)/20240730/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -11,23 +12,28 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
+    "/(photo)/20240831/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(photo)/20240831/page.css",
+      "static/chunks/app/(photo)/20240831/page.js"
+    ],
     "/(photo)/20240723/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/(photo)/20240723/page.css",
       "static/chunks/app/(photo)/20240723/page.js"
     ],
-    "/(photo)/20240724/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/(photo)/20240724/page.css",
-      "static/chunks/app/(photo)/20240724/page.js"
+      "static/chunks/app/page.js"
     ],
-    "/(photo)/20240730/page": [
+    "/(photo)/20240317/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(photo)/20240730/page.js",
-      "static/css/app/(photo)/20240730/page.css"
+      "static/css/app/(photo)/20240317/page.css",
+      "static/chunks/app/(photo)/20240317/page.js"
     ]
   }
 }

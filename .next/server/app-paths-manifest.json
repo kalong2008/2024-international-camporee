@@ -1,8 +1,7 @@
 {
-  "/(photo)/20240723/page": "app/(photo)/20240723/page.js",
-  "/(photo)/20240724/page": "app/(photo)/20240724/page.js",
-  "/(photo)/20240730/page": "app/(photo)/20240730/page.js",
-  "/apple-icon.png/route": "app/apple-icon.png/route.js",
   "/page": "app/page.js",
-  "/manifest.webmanifest/route": "app/manifest.webmanifest/route.js"
+  "/(photo)/20240723/page": "app/(photo)/20240723/page.js",
+  "/(photo)/20240831/page": "app/(photo)/20240831/page.js",
+  "/(photo)/20240317/page": "app/(photo)/20240317/page.js",
+  "/(photo)/20240730/page": "app/(photo)/20240730/page.js"
 }
