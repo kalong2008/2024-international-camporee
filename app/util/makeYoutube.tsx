@@ -1,6 +1,6 @@
 export default function Youtube({youtubeSource, youtubeTitle}:{youtubeSource: string, youtubeTitle: string}) {
     return (   
-        <div className="lg:w-3/5 m-auto">
+        <div className="lg:w-3/5 m-auto pb-8">
           <div
             className="flex justify-center"
             style={{ padding: "56.25% 0 0 0", position: "relative" }}
