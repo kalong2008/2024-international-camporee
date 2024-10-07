@@ -5,6 +5,7 @@ import SideNav from "@/app/ui/nagivation";
 import FooterComponent from "./ui/footer";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Analytics } from "@vercel/analytics/react"
+import { GoogleTagManager } from '@next/third-parties/google'
 
 const notoHK = Noto_Sans_HK({ preload: false, });
 
@@ -20,6 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <GoogleTagManager gtmId="GTM-TWQWHKS7" />
       <body className={notoHK.className}>
         <div><SideNav />
         {children}
