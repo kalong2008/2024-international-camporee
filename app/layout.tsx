@@ -11,7 +11,10 @@ const notoHK = Noto_Sans_HK({ preload: false, });
 
 export const metadata: Metadata = {
   title: "2024年國際金波利 | 基督復臨安息日會 港澳區會",
-  description: "2024 Hong Kong International Pathfinder Camporee - Hong Kong-Macao Conference of Seventh-day Adventists",
+  description: "2024 Hong Kong International Pathfinder Camporee - Hong Kong-Macao Conference of Seventh-day Adventists 2024年國際金波利 基督復臨安息日會 港澳區會",
+  openGraph: {
+    title: '2024年國際金波利 | 基督復臨安息日會 港澳區會',
+  },
 };
 
 export default function RootLayout({

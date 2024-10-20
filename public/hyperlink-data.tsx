@@ -109,4 +109,11 @@ export const hyperLinkPreCamp = [
       href: "/20240831",
     },
   ];
+
+  export const hyperLinkCampMeeting = [
+    {
+      name: "帳棚大會",
+      href: "/20241019",
+    },
+  ];
   

@@ -23,6 +23,7 @@ import {
   hyperLinkRoadTrip,
   hyperLinkCamporee,
   hyperLinkPostCamp,
+  hyperLinkCampMeeting
 } from "@/public/hyperlink-data";
 
 const timeoutDuration = 120;
@@ -327,6 +328,14 @@ export default function SideNav() {
             </Link>
           ))}
           {/* end of other */}
+
+          {/* start of other */}
+          {hyperLinkCampMeeting.map((link) => (
+            <Link href={link.href} className="text-sm leading-6 text-gray-900">
+              {link.name}
+            </Link>
+          ))}
+          {/* end of other */}
         </PopoverGroup>
       </nav>
       {/* end of the top header */}
@@ -481,7 +490,19 @@ export default function SideNav() {
                     {link.name}
                   </Link>
                 ))}
-                {/* end of other */}
+                {/* end of post-camp */}
+                {/* start of camp-meeting */}
+                {hyperLinkCampMeeting.map((link) => (
+                  <Link
+                    key={link.name}
+                    href={link.href}
+                    className="-mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-gray-900 hover:bg-gray-50"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    {link.name}
+                  </Link>
+                ))}
+                {/* end of camp-meeting */}
               </div>
             </div>
           </div>
