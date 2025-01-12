@@ -1,5 +1,30 @@
 {
-  "node": {},
+  "node": {
+    "28e0f4f9551a1ddfaea0697e99fedf0bbe88ae30": {
+      "workers": {
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkalongchan%2Fprogrammer%2F2024-international-camporee%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22syncKeylessConfigAction%22%5D%5D%2C%5B%22%2FUsers%2Fkalongchan%2Fprogrammer%2F2024-international-camporee%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/page": "action-browser"
+      }
+    },
+    "559ae4e6a228ea4b55ed42bca5350df96cd04857": {
+      "workers": {
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkalongchan%2Fprogrammer%2F2024-international-camporee%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22syncKeylessConfigAction%22%5D%5D%2C%5B%22%2FUsers%2Fkalongchan%2Fprogrammer%2F2024-international-camporee%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/page": "action-browser"
+      }
+    },
+    "7563ec6365fded4f5bc13e75dd08693d7ff5cda5": {
+      "workers": {
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkalongchan%2Fprogrammer%2F2024-international-camporee%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22syncKeylessConfigAction%22%5D%5D%2C%5B%22%2FUsers%2Fkalongchan%2Fprogrammer%2F2024-international-camporee%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/page": "action-browser"
+      }
+    }
+  },
   "edge": {},
-  "encryptionKey": "Sw+g+4R51jvDjw4dLfee4qDAmacj2kKdFQTw2nIjUjY="
+  "encryptionKey": "8/+YMbdyrUwSOCeNBk6FXLSaEDE6JN9zq0Erd3wpPEo="
 }
